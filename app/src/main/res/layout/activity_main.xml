@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/llMain"
+    android:gravity="center"
+    android:background="#FAF9F7">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:hint="Enter Your Weight in KGS."
+        android:id="@+id/etweight"
+        android:inputType="number"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:hint="Enter Your Height in Feet."
+        android:id="@+id/etheightf"
+        android:inputType="number"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:textStyle="bold"
+        android:hint="Enter Your Height in Inch."
+        android:id="@+id/etheighti"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/tvop"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:backgroundTint="#5A5151"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvresult"
+        android:text="Result"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note - Below 18.5  Its Underweight"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="220dp"
+        android:textColor="#00BCD4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note - Between 18.5-24.9 Its Healthy"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note - Between 25.0-29.9 Its Overweight"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FF5722" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note - Above 30.0 Its Obesity"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63" />
+
+
+
+</LinearLayout>
