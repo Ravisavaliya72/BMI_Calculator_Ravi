@@ -8,8 +8,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity"
     android:id="@+id/llMain"
-    android:gravity="center"
-    android:background="#FAF9F7">
+    android:gravity="center">
 
 
     <EditText
@@ -18,6 +17,7 @@
         android:ems="11"
         android:hint="Enter Your Weight in KGS."
         android:id="@+id/etweight"
+        android:backgroundTint="@color/black"
         android:inputType="number"
         android:textStyle="bold"/>
 
@@ -39,8 +39,9 @@
         android:id="@+id/etheighti"
         android:inputType="number"/>
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
         android:textSize="30sp"
         android:id="@+id/tvop"
         android:textStyle="bold"/>
@@ -67,7 +68,7 @@
         android:text="Note - Below 18.5  Its Underweight"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="120dp"
         android:textColor="#00BCD4" />
 
     <TextView

@@ -33,8 +33,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-//                String num = tvop.getText().toString();
-//                tvop.setText(num);
 
 
               int w = Integer.parseInt(etweight.getText().toString());
@@ -45,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
               double totalcm = totalinch*2.53;
               double totalmtr = totalcm/100;
               double bmi = w/(totalmtr*totalmtr);
-              tvop.setText("bmi : "+bmi);
+              tvop.setText("BMI : "+bmi);
 
               if (bmi<18.5){
                   tvresult.setText("UNDERWEIGHT");
